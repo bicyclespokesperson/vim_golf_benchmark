@@ -1,0 +1,50 @@
+[
+  {
+    "id": "delete_first_line",
+    "title": "Delete the first line",
+    "initial": "Remove me\nKeep this\nAnd this",
+    "target": "Keep this\nAnd this",
+    "difficulty": "easy",
+    "human_best": 4
+  },
+  {
+    "id": "swap_words",
+    "title": "Swap two words",
+    "initial": "hello world",
+    "target": "world hello",
+    "difficulty": "medium",
+    "human_best": 11
+  },
+  {
+    "id": "csv_to_pipe",
+    "title": "Convert CSV to pipe-delimited",
+    "initial": "a,b,c\n1,2,3",
+    "target": "a|b|c\n1|2|3",
+    "difficulty": "hard",
+    "human_best": 11
+  },
+  {
+    "id": "reverse_lines",
+    "title": "Reverse the order of lines",
+    "initial": "first\nsecond\nthird\nfourth",
+    "target": "fourth\nthird\nsecond\nfirst",
+    "difficulty": "hard",
+    "human_best": 6
+  },
+  {
+    "id": "wrap_in_quotes",
+    "title": "Wrap each word in double quotes",
+    "initial": "hello world vim",
+    "target": "\"hello\" \"world\" \"vim\"",
+    "difficulty": "medium",
+    "human_best": 15
+  },
+  {
+    "id": "comments_to_markdown",
+    "title": "Convert comments to markdown links",
+    "initial": "# Introduction\n# Normal mode\n# Command Line mode\n# Visual mode",
+    "target": "* [Introduction](#introduction)\n* [Normal mode](#normal-mode)\n* [Command Line mode](#command-line-mode)\n* [Visual mode](#visual-mode)",
+    "difficulty": "hard",
+    "human_best": 25
+  }
+]
